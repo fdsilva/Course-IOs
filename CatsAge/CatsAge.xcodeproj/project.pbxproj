@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936F7A5B1DF4DFBB00F08954 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 936F7A5A1DF4DFBB00F08954 /* cat.png */; };
 		938203461DF3D51E009B0266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938203451DF3D51E009B0266 /* AppDelegate.swift */; };
 		938203481DF3D51E009B0266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938203471DF3D51E009B0266 /* ViewController.swift */; };
 		9382034B1DF3D51E009B0266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938203491DF3D51E009B0266 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936F7A5A1DF4DFBB00F08954 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		938203421DF3D51E009B0266 /* CatsAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938203451DF3D51E009B0266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938203471DF3D51E009B0266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				938203471DF3D51E009B0266 /* ViewController.swift */,
 				938203491DF3D51E009B0266 /* Main.storyboard */,
 				9382034C1DF3D51E009B0266 /* Assets.xcassets */,
+				936F7A5A1DF4DFBB00F08954 /* cat.png */,
 				9382034E1DF3D51E009B0266 /* LaunchScreen.storyboard */,
 				938203511DF3D51E009B0266 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				938203501DF3D51E009B0266 /* LaunchScreen.storyboard in Resources */,
 				9382034D1DF3D51E009B0266 /* Assets.xcassets in Resources */,
+				936F7A5B1DF4DFBB00F08954 /* cat.png in Resources */,
 				9382034B1DF3D51E009B0266 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				938203561DF3D51E009B0266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
