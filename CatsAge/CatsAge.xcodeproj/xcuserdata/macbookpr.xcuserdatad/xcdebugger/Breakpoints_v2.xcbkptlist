@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CatsAge/ViewController.swift"
-            timestampString = "502601414.077404"
+            timestampString = "502686910.858841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "findOutAge(_:)"
             landmarkType = "7">
          </BreakpointContent>
