@@ -20,24 +20,27 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //Shows a message on console
         print("Meu primeiro APP");
+        
     }
     
     @IBAction func findOutAge(_ sender: Any) {
         
         var catAge = Int(isertAge.text!)!;
         
-        catAge = catAge * 7;
-        
+        // Checking cats age to calculate humans years
         if catAge == 1 {
             
-            labelResult.text = catAge * 15;
-        }else if catAge == 2{
+            labelResult.text = String(catAge * 15);
             
-        }else if catAge > 2
-        //if isertAge.text
-        labelResult.text = catAge;
+        }else if catAge == 2{
+            labelResult.text = String(catAge * 12);
+            
+        }else if catAge > 2 {
+            catAge = catAge - 2;
+            labelResult.text = String((catAge * 4) + 24);
         
-        print("I was pressed");
+        }
+        //print("I was pressed");
     }
 
     override func didReceiveMemoryWarning() {
