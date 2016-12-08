@@ -41,8 +41,21 @@ var sum: Int = num1 + num2;
 
 print("A soma dos dois numeros é: " + String(sum));
 
+//Arrays
+var persons = ["Zé", "Wild Bill","Trump"]
+print(persons[2])
 
+var personsNames: [String];
+var numbers: [Int] = []
 
+numbers.append(20);
+numbers.append(400);
 
+personsNames = ["Obama", "Jackson", "Lincon"]
+
+//chalenge_2
+var frases: [String] = ["It's better die instead lose the life","The move walk way exit it's aproaching, please watch your step","Helo, it's me Mario!!"]
+
+print(frases[2])
 
 
