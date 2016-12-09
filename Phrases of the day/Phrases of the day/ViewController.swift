@@ -21,8 +21,12 @@ class ViewController: UIViewController {
         phrases.append("darkness falls across the land the midnight hour is close at hand")
         phrases.append("Heigh-ho, Heigh-ho It's home from work we go")
         phrases.append("Tete te tets")
+        phrases.append("JAcob do bandolim ancabaiter tes tetets tetets tetetets")
+        phrases.append("Scoobadó, Scoobadó, Scoobadoobadoobadó...")
         
-        var randomIndex = arc4random_uniform(5)
+        var randomIndex = arc4random_uniform(7)
+        
+        
         labelResult.text = phrases[Int(randomIndex)]
         
     }
