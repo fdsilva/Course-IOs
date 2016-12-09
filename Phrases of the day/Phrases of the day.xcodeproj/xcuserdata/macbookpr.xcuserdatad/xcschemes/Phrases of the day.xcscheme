@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93A93EBF1DF878FA00CEED22"
-               BuildableName = "Random Numebers Generator.app"
-               BlueprintName = "Random Numebers Generator"
-               ReferencedContainer = "container:Random Numebers Generator.xcodeproj">
+               BlueprintIdentifier = "9358B1881DFA59C3009833F4"
+               BuildableName = "Phrases of the day.app"
+               BlueprintName = "Phrases of the day"
+               ReferencedContainer = "container:Phrases of the day.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A93EBF1DF878FA00CEED22"
-            BuildableName = "Random Numebers Generator.app"
-            BlueprintName = "Random Numebers Generator"
-            ReferencedContainer = "container:Random Numebers Generator.xcodeproj">
+            BlueprintIdentifier = "9358B1881DFA59C3009833F4"
+            BuildableName = "Phrases of the day.app"
+            BlueprintName = "Phrases of the day"
+            ReferencedContainer = "container:Phrases of the day.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A93EBF1DF878FA00CEED22"
-            BuildableName = "Random Numebers Generator.app"
-            BlueprintName = "Random Numebers Generator"
-            ReferencedContainer = "container:Random Numebers Generator.xcodeproj">
+            BlueprintIdentifier = "9358B1881DFA59C3009833F4"
+            BuildableName = "Phrases of the day.app"
+            BlueprintName = "Phrases of the day"
+            ReferencedContainer = "container:Phrases of the day.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A93EBF1DF878FA00CEED22"
-            BuildableName = "Random Numebers Generator.app"
-            BlueprintName = "Random Numebers Generator"
-            ReferencedContainer = "container:Random Numebers Generator.xcodeproj">
+            BlueprintIdentifier = "9358B1881DFA59C3009833F4"
+            BuildableName = "Phrases of the day.app"
+            BlueprintName = "Phrases of the day"
+            ReferencedContainer = "container:Phrases of the day.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
