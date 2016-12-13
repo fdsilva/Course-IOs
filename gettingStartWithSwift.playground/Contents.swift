@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+/*/: Playground - noun: a place where people can play
 
 import UIKit
 
@@ -58,4 +58,80 @@ var frases: [String] = ["It's better die instead lose the life","The move walk w
 
 print(frases[2])
 
+//Sets "List in java"
 
+var list = Set<String>()
+
+list.insert("Pizza")
+list.insert("P")
+list.insert("Jaca")
+list.insert("B")
+list.insert("Av")
+
+//list.insert("Pizza")
+
+print (list)
+
+//dictionary
+var animals = [String: String]()
+
+animals["Bear"] = "White and scarry"
+animals["Cow"] = "Mr Vaca Vaca"
+
+print(animals["Cow"]!)
+
+//Chalenge
+var yearMonths = [Int: String]()
+
+yearMonths[1] = "January"
+yearMonths[2] = "February"
+yearMonths[3] = "March"
+yearMonths[4] = "April"
+yearMonths[5] = "May"
+yearMonths[6] = "June"
+yearMonths[7] = "July"
+yearMonths[8] = "August"
+yearMonths[9] = "September"
+yearMonths[10] = "October"
+yearMonths[11] = "November"
+yearMonths[12] = "December"
+
+print(yearMonths[1]!)
+print(yearMonths[4]!)
+
+var idade: Int
+
+idade = 22
+ 1 >= 1 || 2 < 2
+idade >= 18 && idade <= 26
+*/
+
+// LOOPS
+
+// for
+/*
+for var i in 0..<5 {
+    print("Numero " + String(i))
+}
+
+var comentarios: [String] = []
+
+comentarios.append("Gostei de tu fueto!!!")
+comentarios.append("Tu madre")
+comentarios.append("ANcabaiter")
+
+for var c in comentarios{
+    print(c)
+}*/
+
+var contador: Int = 0;
+/*
+while contador < 6{
+    print(contador)
+    contador += 1;
+}*/
+
+repeat{
+    print("Repeating" + String(contador))
+    contador += 1
+}while contador < 6
