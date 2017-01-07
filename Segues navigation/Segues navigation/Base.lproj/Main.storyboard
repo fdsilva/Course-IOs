@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,7 +19,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="om8-sz-kyW">
@@ -54,7 +54,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="epW-Q9-sXS">
-                                <rect key="frame" x="16" y="207" width="343" height="40"/>
+                                <rect key="frame" x="16" y="207" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="159-Pp-zPn"/>
                                 </constraints>
@@ -63,7 +63,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qa2-tM-M4H">
-                                <rect key="frame" x="16" y="291" width="343" height="40"/>
+                                <rect key="frame" x="16" y="291" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Gwt-J9-DX5"/>
                                 </constraints>
@@ -81,11 +81,14 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="brR-DK-5mS" kind="show" id="oDn-OU-iju"/>
+                                    <segue destination="VEV-bX-cGT" kind="show" id="oDn-OU-iju"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZMK-oh-cEz">
-                                <rect key="frame" x="16" y="60" width="343" height="87"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZMK-oh-cEz">
+                                <rect key="frame" x="20" y="60" width="374" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="WI6-J5-auy"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yY-x6-Gbf">
                                 <rect key="frame" x="220" y="432" width="139" height="30"/>
@@ -129,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="824.79999999999995" y="113.79310344827587"/>
         </scene>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="TIA-ui-Mjo">
             <objects>
                 <viewController id="brR-DK-5mS" sceneMemberID="viewController">
@@ -138,47 +141,219 @@
                         <viewControllerLayoutGuide type="bottom" id="Jt1-Yq-Ons"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="y1L-7F-Mpr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZqS-vy-XJu">
-                                <rect key="frame" x="16" y="151" width="343" height="177"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Helper Robot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WN-ll-bYH">
-                                <rect key="frame" x="16" y="351" width="343" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="35R-IV-aix"/>
-                                    <constraint firstAttribute="height" constant="49" id="ZGZ-Ug-tgV"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-rp-ncp">
-                                <rect key="frame" x="90" y="408" width="192" height="30"/>
-                                <state key="normal" title="Back  Login"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="YQX-US-GUc"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KNn-YZ-P5K">
+                                <rect key="frame" x="96" y="204" width="220" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-wK-fMI">
+                                        <rect key="frame" x="22.666666666666671" y="0.0" width="175" height="164"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZqS-vy-XJu">
+                                                <rect key="frame" x="0.0" y="0.0" width="175" height="128"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Helper Robot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WN-ll-bYH">
+                                                <rect key="frame" x="0.0" y="128" width="175" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="FNS-1W-8ko">
+                                        <rect key="frame" x="0.0" y="164" width="220" height="164"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-rp-ncp">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="164"/>
+                                                <state key="normal" title="Back  Login"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="YQX-US-GUc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylk-bH-3MO">
+                                                <rect key="frame" x="140" y="0.0" width="80" height="164"/>
+                                                <state key="normal" title="Dashboard"/>
+                                                <connections>
+                                                    <segue destination="rwW-f1-IZa" kind="show" id="h98-cQ-DzQ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ZqS-vy-XJu" firstAttribute="trailing" secondItem="y1L-7F-Mpr" secondAttribute="trailingMargin" id="0Cr-K4-vH7"/>
-                            <constraint firstItem="IKY-rp-ncp" firstAttribute="leading" secondItem="y1L-7F-Mpr" secondAttribute="leadingMargin" constant="74" id="7l9-5r-uVy"/>
-                            <constraint firstItem="9WN-ll-bYH" firstAttribute="leading" secondItem="y1L-7F-Mpr" secondAttribute="leadingMargin" id="83F-rc-PjO"/>
-                            <constraint firstItem="9WN-ll-bYH" firstAttribute="top" secondItem="ZqS-vy-XJu" secondAttribute="bottom" constant="10" id="9bI-Nc-a7E"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="IKY-rp-ncp" secondAttribute="trailing" constant="77" id="FK7-AH-x4M"/>
-                            <constraint firstItem="IKY-rp-ncp" firstAttribute="top" secondItem="9WN-ll-bYH" secondAttribute="bottom" constant="8" id="LaT-VH-yEM"/>
-                            <constraint firstItem="ZqS-vy-XJu" firstAttribute="top" secondItem="RBS-Qp-KYa" secondAttribute="bottom" constant="131" id="lvx-0S-aru"/>
-                            <constraint firstItem="9WN-ll-bYH" firstAttribute="trailing" secondItem="y1L-7F-Mpr" secondAttribute="trailingMargin" id="uvg-5y-nle"/>
-                            <constraint firstItem="ZqS-vy-XJu" firstAttribute="leading" secondItem="y1L-7F-Mpr" secondAttribute="leadingMargin" id="wP9-eY-o3X"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Main" id="06F-o8-t7P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgI-OB-KeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1936.8" y="-597.75112443778119"/>
+            <point key="canvasLocation" x="2531.8840579710145" y="-642.39130434782612"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vbs-WH-ofh">
+            <objects>
+                <viewController id="rwW-f1-IZa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qav-MK-gr2"/>
+                        <viewControllerLayoutGuide type="bottom" id="vRB-3Z-d6I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Yq-ED-EpX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EZj-CU-Jm0">
+                                <rect key="frame" x="102" y="208" width="210" height="320"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V7C-4E-0ta">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="100"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="HSK-5K-LN1">
+                                                <rect key="frame" x="0.0" y="0.0" width="210" height="100"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PKv-xW-uOI">
+                                        <rect key="frame" x="0.0" y="110" width="210" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esD-Gy-xwR">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="2HZ-4t-bSF"/>
+                                                    <constraint firstAttribute="width" constant="100" id="mSe-Ha-8yX"/>
+                                                </constraints>
+                                                <state key="normal" image="contact (1)"/>
+                                                <connections>
+                                                    <segue destination="scS-kT-EMs" kind="show" id="Ifx-aM-YWm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jk-Bu-Uzc">
+                                                <rect key="frame" x="110" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="ZhV-0Z-Qum"/>
+                                                    <constraint firstAttribute="height" constant="100" id="ngE-wx-gIf"/>
+                                                </constraints>
+                                                <state key="normal" image="search"/>
+                                                <connections>
+                                                    <segue destination="bJ1-iz-4tq" kind="show" id="rIj-0g-ock"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9J8-gt-fQV">
+                                        <rect key="frame" x="0.0" y="220" width="210" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx0-i6-e0D">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="aXt-Li-EjL"/>
+                                                    <constraint firstAttribute="height" constant="100" id="mhe-fh-v2u"/>
+                                                </constraints>
+                                                <state key="normal" image="draft"/>
+                                                <connections>
+                                                    <segue destination="zuA-T3-dCE" kind="show" id="RT0-m6-n52"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuq-wt-NMW">
+                                                <rect key="frame" x="110" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="LP4-RQ-RHt"/>
+                                                    <constraint firstAttribute="width" constant="100" id="iEj-15-Oje"/>
+                                                </constraints>
+                                                <state key="normal" image="settings"/>
+                                                <connections>
+                                                    <segue destination="yab-Dm-fqV" kind="show" id="pCp-tX-kh3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EZj-CU-Jm0" firstAttribute="centerX" secondItem="6Yq-ED-EpX" secondAttribute="centerX" id="FiO-g0-k0X"/>
+                            <constraint firstItem="EZj-CU-Jm0" firstAttribute="centerY" secondItem="6Yq-ED-EpX" secondAttribute="centerY" id="Nja-tU-f1h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btf-5f-QM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3503" y="-642"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bra-Ha-isy">
+            <objects>
+                <viewController id="scS-kT-EMs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ggO-ir-fuX"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Qp-I0-Obx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tEx-MW-uAd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FX1-sg-OYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4823" y="-1833"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PTh-qi-FyI">
+            <objects>
+                <viewController id="zuA-T3-dCE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IOz-BG-hxd"/>
+                        <viewControllerLayoutGuide type="bottom" id="I27-8p-vXL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fBv-rC-yeG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnj-O4-owH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4822" y="-452"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JQl-b9-dCS">
+            <objects>
+                <viewController id="bJ1-iz-4tq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wwR-vz-5OF"/>
+                        <viewControllerLayoutGuide type="bottom" id="unl-6N-YOs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mSx-Mb-xrd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mpb-Fh-3C8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4822" y="-1153"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jq5-lV-Ttc">
+            <objects>
+                <viewController id="yab-Dm-fqV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dt0-g0-f6D"/>
+                        <viewControllerLayoutGuide type="bottom" id="8jD-re-ij7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EXK-Zx-ncu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftu-KK-78j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4822" y="289"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QDq-md-ECa">
@@ -189,7 +364,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nDv-g4-Csr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PMf-q2-Zy7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRH-Eo-8ll">
@@ -221,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCh-cR-5gE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1936.8" y="138.98050974512745"/>
+            <point key="canvasLocation" x="1833" y="131"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HXF-z1-aHz">
@@ -232,11 +407,11 @@
                         <viewControllerLayoutGuide type="bottom" id="RrP-3C-Bds"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rCp-cj-6wE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Pass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pff-vG-ePf">
-                                <rect key="frame" x="129" y="323" width="116" height="21"/>
+                                <rect key="frame" x="149" y="357.66666666666669" width="116" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="116" id="9IE-pI-1bE"/>
                                     <constraint firstAttribute="height" constant="21" id="kk6-Vm-XXW"/>
@@ -271,11 +446,33 @@
             </objects>
             <point key="canvasLocation" x="1936.8" y="876.61169415292363"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="deq-7W-Ubg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VEV-bX-cGT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HlA-bz-rEe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="brR-DK-5mS" kind="relationship" relationship="rootViewController" id="Rh1-YU-Y4d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RIb-VU-wsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1624.6376811594205" y="-642.39130434782612"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="contact (1)" width="128" height="128"/>
+        <image name="draft" width="128" height="128"/>
         <image name="roboto-logo (1)" width="128" height="128"/>
+        <image name="search" width="128" height="128"/>
+        <image name="settings" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KpI-AH-gfE"/>
+        <segue reference="YQX-US-GUc"/>
     </inferredMetricsTieBreakers>
 </document>
