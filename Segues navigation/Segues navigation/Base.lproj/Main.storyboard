@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,7 +19,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="om8-sz-kyW">
@@ -85,7 +85,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZMK-oh-cEz">
-                                <rect key="frame" x="20" y="104" width="374" height="87"/>
+                                <rect key="frame" x="16" y="60" width="343" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="87" id="WI6-J5-auy"/>
                                 </constraints>
@@ -141,7 +141,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Jt1-Yq-Ons"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="y1L-7F-Mpr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KNn-YZ-P5K">
@@ -149,7 +149,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-wK-fMI">
-                                        <rect key="frame" x="22.666666666666671" y="0.0" width="175" height="164"/>
+                                        <rect key="frame" x="22.5" y="0.0" width="175" height="164"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZqS-vy-XJu">
                                                 <rect key="frame" x="0.0" y="0.0" width="175" height="128"/>
@@ -202,11 +202,11 @@
                         <viewControllerLayoutGuide type="bottom" id="vRB-3Z-d6I"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6Yq-ED-EpX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EZj-CU-Jm0">
-                                <rect key="frame" x="102" y="208" width="210" height="320"/>
+                                <rect key="frame" x="82.5" y="173.5" width="210" height="320"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V7C-4E-0ta">
                                         <rect key="frame" x="0.0" y="0.0" width="210" height="100"/>
@@ -283,7 +283,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btf-5f-QM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4294.202898550725" y="-642.39130434782612"/>
+            <point key="canvasLocation" x="3961" y="-642"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bra-Ha-isy">
@@ -294,7 +294,7 @@
                         <viewControllerLayoutGuide type="bottom" id="9Qp-I0-Obx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tEx-MW-uAd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contact (1)" translatesAutoresizingMaskIntoConstraints="NO" id="3kw-co-p7m">
@@ -346,7 +346,7 @@
                         <viewControllerLayoutGuide type="bottom" id="I27-8p-vXL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fBv-rC-yeG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="draft" translatesAutoresizingMaskIntoConstraints="NO" id="yzK-a0-z2k">
@@ -398,7 +398,7 @@
                         <viewControllerLayoutGuide type="bottom" id="unl-6N-YOs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mSx-Mb-xrd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ny_bg" translatesAutoresizingMaskIntoConstraints="NO" id="nxZ-xR-j5e">
@@ -433,7 +433,7 @@
                         <viewControllerLayoutGuide type="bottom" id="8jD-re-ij7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EXK-Zx-ncu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="Xkc-jc-hTF">
@@ -457,7 +457,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nDv-g4-Csr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PMf-q2-Zy7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Register Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRH-Eo-8ll">
@@ -500,11 +500,11 @@
                         <viewControllerLayoutGuide type="bottom" id="RrP-3C-Bds"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rCp-cj-6wE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Pass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pff-vG-ePf">
-                                <rect key="frame" x="149" y="357.66666666666669" width="116" height="21"/>
+                                <rect key="frame" x="129.5" y="323" width="116" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="116" id="9IE-pI-1bE"/>
                                     <constraint firstAttribute="height" constant="21" id="kk6-Vm-XXW"/>
@@ -567,6 +567,6 @@
         <image name="settings" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YQX-US-GUc"/>
+        <segue reference="w5Y-WR-9z4"/>
     </inferredMetricsTieBreakers>
 </document>
