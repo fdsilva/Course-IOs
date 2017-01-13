@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938EA3AE1E28842800C7F857 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EA3AD1E28842800C7F857 /* GreetingViewController.swift */; };
 		93B9BF901E1A220D00E1378E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9BF8F1E1A220D00E1378E /* AppDelegate.swift */; };
 		93B9BF921E1A220D00E1378E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9BF911E1A220D00E1378E /* ViewController.swift */; };
 		93B9BF951E1A220D00E1378E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9BF931E1A220D00E1378E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		938EA3AD1E28842800C7F857 /* GreetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreetingViewController.swift; path = ../GreetingViewController.swift; sourceTree = "<group>"; };
 		93B9BF8C1E1A220D00E1378E /* Segues navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segues navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B9BF8F1E1A220D00E1378E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B9BF911E1A220D00E1378E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				93B9BF8F1E1A220D00E1378E /* AppDelegate.swift */,
 				93B9BF911E1A220D00E1378E /* ViewController.swift */,
+				938EA3AD1E28842800C7F857 /* GreetingViewController.swift */,
 				93B9BF931E1A220D00E1378E /* Main.storyboard */,
 				93B9BF961E1A220D00E1378E /* Assets.xcassets */,
 				93B9BF981E1A220D00E1378E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B9BF921E1A220D00E1378E /* ViewController.swift in Sources */,
+				938EA3AE1E28842800C7F857 /* GreetingViewController.swift in Sources */,
 				93B9BF901E1A220D00E1378E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				93B9BFA01E1A220D00E1378E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

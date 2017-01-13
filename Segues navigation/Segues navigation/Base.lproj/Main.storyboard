@@ -81,7 +81,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="brR-DK-5mS" kind="show" id="EWx-JT-lGc"/>
+                                    <segue destination="brR-DK-5mS" kind="show" identifier="greetingRobot" id="EWx-JT-lGc"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZMK-oh-cEz">
@@ -127,6 +127,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main Screen" id="6Oy-EQ-Qf5"/>
+                    <connections>
+                        <outlet property="tf_username" destination="epW-Q9-sXS" id="xRa-9m-QTN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -135,7 +138,7 @@
         <!--Main-->
         <scene sceneID="TIA-ui-Mjo">
             <objects>
-                <viewController id="brR-DK-5mS" sceneMemberID="viewController">
+                <viewController id="brR-DK-5mS" customClass="GreetingViewController" customModule="Segues_navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RBS-Qp-KYa"/>
                         <viewControllerLayoutGuide type="bottom" id="Jt1-Yq-Ons"/>
@@ -144,17 +147,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KNn-YZ-P5K">
-                                <rect key="frame" x="96" y="204" width="220" height="328"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KNn-YZ-P5K">
+                                <rect key="frame" x="77" y="169" width="220" height="328"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-wK-fMI">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yzv-wK-fMI">
                                         <rect key="frame" x="22.5" y="0.0" width="175" height="164"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZqS-vy-XJu">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roboto-logo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="ZqS-vy-XJu">
                                                 <rect key="frame" x="0.0" y="0.0" width="175" height="128"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Helper Robot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WN-ll-bYH">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helper Robot" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WN-ll-bYH">
                                                 <rect key="frame" x="0.0" y="128" width="175" height="36"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -162,17 +164,17 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="FNS-1W-8ko">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="FNS-1W-8ko">
                                         <rect key="frame" x="0.0" y="164" width="220" height="164"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-rp-ncp">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-rp-ncp">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="164"/>
                                                 <state key="normal" title="Back  Login"/>
                                                 <connections>
                                                     <segue destination="BYZ-38-t0r" kind="show" id="YQX-US-GUc"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylk-bH-3MO">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylk-bH-3MO">
                                                 <rect key="frame" x="140" y="0.0" width="80" height="164"/>
                                                 <state key="normal" title="Dashboard"/>
                                                 <connections>
@@ -183,15 +185,35 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dfg" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilt-Pn-cCW">
+                                <rect key="frame" x="16" y="61" width="343" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="v1A-JF-Qvh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ilt-Pn-cCW" firstAttribute="top" secondItem="RBS-Qp-KYa" secondAttribute="bottom" constant="41" id="33i-cg-ci6"/>
+                            <constraint firstItem="KNn-YZ-P5K" firstAttribute="centerX" secondItem="y1L-7F-Mpr" secondAttribute="centerX" id="AFR-vc-h0M"/>
+                            <constraint firstItem="Ilt-Pn-cCW" firstAttribute="trailing" secondItem="y1L-7F-Mpr" secondAttribute="trailingMargin" id="CwI-0Z-wE4"/>
+                            <constraint firstItem="Ilt-Pn-cCW" firstAttribute="leading" secondItem="y1L-7F-Mpr" secondAttribute="leadingMargin" id="Eyv-0n-SWJ"/>
+                            <constraint firstItem="KNn-YZ-P5K" firstAttribute="top" secondItem="Ilt-Pn-cCW" secondAttribute="bottom" constant="67" id="fYF-pW-rDG"/>
+                            <constraint firstItem="KNn-YZ-P5K" firstAttribute="centerY" secondItem="y1L-7F-Mpr" secondAttribute="centerY" id="tTa-QT-gJz"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Ldj-ao-Jih"/>
                     <navigationItem key="navigationItem" title="Main" id="06F-o8-t7P"/>
+                    <connections>
+                        <outlet property="lb_greeting" destination="Ilt-Pn-cCW" id="24J-eD-wCb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MgI-OB-KeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1609" y="-642"/>
+            <point key="canvasLocation" x="1608.8" y="-642.72863568215894"/>
         </scene>
         <!--Dashboard-->
         <scene sceneID="vbs-WH-ofh">
@@ -567,6 +589,6 @@
         <image name="settings" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="w5Y-WR-9z4"/>
+        <segue reference="YQX-US-GUc"/>
     </inferredMetricsTieBreakers>
 </document>
