@@ -15,24 +15,33 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var tfResult: UILabel!
     @IBOutlet weak var imgResult: UIImageView!
     
+    var dictionary = ["Rock!!": UIImage(named: "rock"),
+                      "Paper!!": UIImage(named: "paper"),
+                      "Scissors!!": UIImage(named: "scessors")]
+    
     var received: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if(received == 0){
-            imgResult.image = #imageLiteral(resourceName: "rock")
-            tfResult.text = "Rock"
+        imgResult.image = Array(dictionary.values)[received]
+        tfResult.text = Array(dictionary.keys)[received]
         
-        }else if (received == 1){
-            imgResult.image = #imageLiteral(resourceName: "paper")
-            tfResult.text = "Paper"
-            
-        }else {
-            imgResult.image = #imageLiteral(resourceName: "scessors")
-            tfResult.text = "Scissors"
-        
-        }
+        /*Painful way*/
+//        
+//        if(received == 0){
+//            imgResult.image = #imageLiteral(resourceName: "rock")
+//            tfResult.text = "Rock"
+//        
+//        }else if (received == 1){
+//            imgResult.image = #imageLiteral(resourceName: "paper")
+//            tfResult.text = "Paper"
+//            
+//        }else {
+//            imgResult.image = #imageLiteral(resourceName: "scessors")
+//            tfResult.text = "Scissors"
+//        
+//        }
         // Do any additional setup after loading the view, typically from a nib.
     }
     
