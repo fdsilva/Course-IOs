@@ -13,6 +13,8 @@
 		93B9BF951E1A220D00E1378E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9BF931E1A220D00E1378E /* Main.storyboard */; };
 		93B9BF971E1A220D00E1378E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B9BF961E1A220D00E1378E /* Assets.xcassets */; };
 		93B9BF9A1E1A220D00E1378E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9BF981E1A220D00E1378E /* LaunchScreen.storyboard */; };
+		E75FDB801E31485900F8293A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FDB7F1E31485900F8293A /* RegistrationViewController.swift */; };
+		E75FDB821E314EF700F8293A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FDB811E314EF700F8293A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		93B9BF961E1A220D00E1378E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B9BF991E1A220D00E1378E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B9BF9B1E1A220D00E1378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75FDB7F1E31485900F8293A /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		E75FDB811E314EF700F8293A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				93B9BF8F1E1A220D00E1378E /* AppDelegate.swift */,
 				93B9BF911E1A220D00E1378E /* ViewController.swift */,
 				938EA3AD1E28842800C7F857 /* GreetingViewController.swift */,
+				E75FDB7F1E31485900F8293A /* RegistrationViewController.swift */,
 				93B9BF931E1A220D00E1378E /* Main.storyboard */,
 				93B9BF961E1A220D00E1378E /* Assets.xcassets */,
 				93B9BF981E1A220D00E1378E /* LaunchScreen.storyboard */,
 				93B9BF9B1E1A220D00E1378E /* Info.plist */,
+				E75FDB811E314EF700F8293A /* User.swift */,
 			);
 			path = "Segues navigation";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				93B9BF921E1A220D00E1378E /* ViewController.swift in Sources */,
 				938EA3AE1E28842800C7F857 /* GreetingViewController.swift in Sources */,
+				E75FDB801E31485900F8293A /* RegistrationViewController.swift in Sources */,
+				E75FDB821E314EF700F8293A /* User.swift in Sources */,
 				93B9BF901E1A220D00E1378E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
