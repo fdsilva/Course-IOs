@@ -66,7 +66,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Mof-Fl-qVw"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Save"/>
                                         <connections>
                                             <action selector="saveNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VY9-UT-ehg"/>

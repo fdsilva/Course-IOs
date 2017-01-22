@@ -8,6 +8,7 @@
 
 import UIKit
 let TRAVEL_NOTE = "travelNote"
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var textDescriptionNote:
@@ -18,16 +19,29 @@ class ViewController: UIViewController {
         let retrivedText = self.retriveTravelNote()
         textDescriptionNote.text = retrivedText
     }
-
+    
+//    override var prefersStatusBarHidden: Bool {
+//        return true
+//    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func hideKeyboard(){
+         view.endEditing(true)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+       hideKeyboard()
     }
 
 
     @IBAction func saveNote(_ sender: Any) {
         if let insertedText = textDescriptionNote.text {
             self.saveNote(text: insertedText)
+            hideKeyboard()
             
         }
     }
@@ -46,7 +60,7 @@ class ViewController: UIViewController {
             return ""
         
         }
-        
     }
+
 }
 
