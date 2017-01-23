@@ -7,48 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E796B03A1E354B130095EC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B0391E354B130095EC6A /* AppDelegate.swift */; };
-		E796B03C1E354B130095EC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B03B1E354B130095EC6A /* ViewController.swift */; };
-		E796B03F1E354B130095EC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E796B03D1E354B130095EC6A /* Main.storyboard */; };
-		E796B0411E354B130095EC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E796B0401E354B130095EC6A /* Assets.xcassets */; };
-		E796B0441E354B130095EC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E796B0421E354B130095EC6A /* LaunchScreen.storyboard */; };
-		E796B04F1E354B140095EC6A /* TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B04E1E354B140095EC6A /* TasksTests.swift */; };
-		E796B05A1E3552980095EC6A /* AddTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B0591E3552980095EC6A /* AddTasksViewController.swift */; };
+		E796B0681E355AAC0095EC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B0671E355AAC0095EC6A /* AppDelegate.swift */; };
+		E796B06A1E355AAC0095EC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B0691E355AAC0095EC6A /* ViewController.swift */; };
+		E796B06D1E355AAC0095EC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E796B06B1E355AAC0095EC6A /* Main.storyboard */; };
+		E796B06F1E355AAC0095EC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E796B06E1E355AAC0095EC6A /* Assets.xcassets */; };
+		E796B0721E355AAC0095EC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E796B0701E355AAC0095EC6A /* LaunchScreen.storyboard */; };
+		E796B07D1E355AAC0095EC6A /* Click_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B07C1E355AAC0095EC6A /* Click_CounterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E796B04B1E354B130095EC6A /* PBXContainerItemProxy */ = {
+		E796B0791E355AAC0095EC6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E796B02E1E354B130095EC6A /* Project object */;
+			containerPortal = E796B05C1E355AAC0095EC6A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E796B0351E354B130095EC6A;
-			remoteInfo = Tasks;
+			remoteGlobalIDString = E796B0631E355AAC0095EC6A;
+			remoteInfo = "Click Counter";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E796B0361E354B130095EC6A /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E796B0391E354B130095EC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E796B03B1E354B130095EC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E796B03E1E354B130095EC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E796B0401E354B130095EC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E796B0431E354B130095EC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E796B0451E354B130095EC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E796B04A1E354B130095EC6A /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E796B04E1E354B140095EC6A /* TasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTests.swift; sourceTree = "<group>"; };
-		E796B0501E354B140095EC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E796B0591E3552980095EC6A /* AddTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTasksViewController.swift; sourceTree = "<group>"; };
+		E796B0641E355AAC0095EC6A /* Click Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E796B0671E355AAC0095EC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E796B0691E355AAC0095EC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E796B06C1E355AAC0095EC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E796B06E1E355AAC0095EC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E796B0711E355AAC0095EC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E796B0731E355AAC0095EC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E796B0781E355AAC0095EC6A /* Click CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Click CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E796B07C1E355AAC0095EC6A /* Click_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click_CounterTests.swift; sourceTree = "<group>"; };
+		E796B07E1E355AAC0095EC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E796B0331E354B130095EC6A /* Frameworks */ = {
+		E796B0611E355AAC0095EC6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E796B0471E354B130095EC6A /* Frameworks */ = {
+		E796B0751E355AAC0095EC6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,107 +56,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E796B02D1E354B130095EC6A = {
+		E796B05B1E355AAC0095EC6A = {
 			isa = PBXGroup;
 			children = (
-				E796B0381E354B130095EC6A /* Tasks */,
-				E796B04D1E354B130095EC6A /* TasksTests */,
-				E796B0371E354B130095EC6A /* Products */,
+				E796B0661E355AAC0095EC6A /* Click Counter */,
+				E796B07B1E355AAC0095EC6A /* Click CounterTests */,
+				E796B0651E355AAC0095EC6A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E796B0371E354B130095EC6A /* Products */ = {
+		E796B0651E355AAC0095EC6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E796B0361E354B130095EC6A /* Tasks.app */,
-				E796B04A1E354B130095EC6A /* TasksTests.xctest */,
+				E796B0641E355AAC0095EC6A /* Click Counter.app */,
+				E796B0781E355AAC0095EC6A /* Click CounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E796B0381E354B130095EC6A /* Tasks */ = {
+		E796B0661E355AAC0095EC6A /* Click Counter */ = {
 			isa = PBXGroup;
 			children = (
-				E796B0391E354B130095EC6A /* AppDelegate.swift */,
-				E796B03B1E354B130095EC6A /* ViewController.swift */,
-				E796B03D1E354B130095EC6A /* Main.storyboard */,
-				E796B0401E354B130095EC6A /* Assets.xcassets */,
-				E796B0421E354B130095EC6A /* LaunchScreen.storyboard */,
-				E796B0451E354B130095EC6A /* Info.plist */,
-				E796B0591E3552980095EC6A /* AddTasksViewController.swift */,
+				E796B0671E355AAC0095EC6A /* AppDelegate.swift */,
+				E796B0691E355AAC0095EC6A /* ViewController.swift */,
+				E796B06B1E355AAC0095EC6A /* Main.storyboard */,
+				E796B06E1E355AAC0095EC6A /* Assets.xcassets */,
+				E796B0701E355AAC0095EC6A /* LaunchScreen.storyboard */,
+				E796B0731E355AAC0095EC6A /* Info.plist */,
 			);
-			path = Tasks;
+			path = "Click Counter";
 			sourceTree = "<group>";
 		};
-		E796B04D1E354B130095EC6A /* TasksTests */ = {
+		E796B07B1E355AAC0095EC6A /* Click CounterTests */ = {
 			isa = PBXGroup;
 			children = (
-				E796B04E1E354B140095EC6A /* TasksTests.swift */,
-				E796B0501E354B140095EC6A /* Info.plist */,
+				E796B07C1E355AAC0095EC6A /* Click_CounterTests.swift */,
+				E796B07E1E355AAC0095EC6A /* Info.plist */,
 			);
-			path = TasksTests;
+			path = "Click CounterTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E796B0351E354B130095EC6A /* Tasks */ = {
+		E796B0631E355AAC0095EC6A /* Click Counter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E796B0531E354B140095EC6A /* Build configuration list for PBXNativeTarget "Tasks" */;
+			buildConfigurationList = E796B0811E355AAC0095EC6A /* Build configuration list for PBXNativeTarget "Click Counter" */;
 			buildPhases = (
-				E796B0321E354B130095EC6A /* Sources */,
-				E796B0331E354B130095EC6A /* Frameworks */,
-				E796B0341E354B130095EC6A /* Resources */,
+				E796B0601E355AAC0095EC6A /* Sources */,
+				E796B0611E355AAC0095EC6A /* Frameworks */,
+				E796B0621E355AAC0095EC6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Tasks;
-			productName = Tasks;
-			productReference = E796B0361E354B130095EC6A /* Tasks.app */;
+			name = "Click Counter";
+			productName = "Click Counter";
+			productReference = E796B0641E355AAC0095EC6A /* Click Counter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E796B0491E354B130095EC6A /* TasksTests */ = {
+		E796B0771E355AAC0095EC6A /* Click CounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E796B0561E354B140095EC6A /* Build configuration list for PBXNativeTarget "TasksTests" */;
+			buildConfigurationList = E796B0841E355AAC0095EC6A /* Build configuration list for PBXNativeTarget "Click CounterTests" */;
 			buildPhases = (
-				E796B0461E354B130095EC6A /* Sources */,
-				E796B0471E354B130095EC6A /* Frameworks */,
-				E796B0481E354B130095EC6A /* Resources */,
+				E796B0741E355AAC0095EC6A /* Sources */,
+				E796B0751E355AAC0095EC6A /* Frameworks */,
+				E796B0761E355AAC0095EC6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E796B04C1E354B130095EC6A /* PBXTargetDependency */,
+				E796B07A1E355AAC0095EC6A /* PBXTargetDependency */,
 			);
-			name = TasksTests;
-			productName = TasksTests;
-			productReference = E796B04A1E354B130095EC6A /* TasksTests.xctest */;
+			name = "Click CounterTests";
+			productName = "Click CounterTests";
+			productReference = E796B0781E355AAC0095EC6A /* Click CounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E796B02E1E354B130095EC6A /* Project object */ = {
+		E796B05C1E355AAC0095EC6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Francisco Ioneiton da Silva";
 				TargetAttributes = {
-					E796B0351E354B130095EC6A = {
+					E796B0631E355AAC0095EC6A = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					E796B0491E354B130095EC6A = {
+					E796B0771E355AAC0095EC6A = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = E796B0351E354B130095EC6A;
+						TestTargetID = E796B0631E355AAC0095EC6A;
 					};
 				};
 			};
-			buildConfigurationList = E796B0311E354B130095EC6A /* Build configuration list for PBXProject "Tasks" */;
+			buildConfigurationList = E796B05F1E355AAC0095EC6A /* Build configuration list for PBXProject "Click Counter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,29 +163,29 @@
 				en,
 				Base,
 			);
-			mainGroup = E796B02D1E354B130095EC6A;
-			productRefGroup = E796B0371E354B130095EC6A /* Products */;
+			mainGroup = E796B05B1E355AAC0095EC6A;
+			productRefGroup = E796B0651E355AAC0095EC6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E796B0351E354B130095EC6A /* Tasks */,
-				E796B0491E354B130095EC6A /* TasksTests */,
+				E796B0631E355AAC0095EC6A /* Click Counter */,
+				E796B0771E355AAC0095EC6A /* Click CounterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E796B0341E354B130095EC6A /* Resources */ = {
+		E796B0621E355AAC0095EC6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E796B0441E354B130095EC6A /* LaunchScreen.storyboard in Resources */,
-				E796B0411E354B130095EC6A /* Assets.xcassets in Resources */,
-				E796B03F1E354B130095EC6A /* Main.storyboard in Resources */,
+				E796B0721E355AAC0095EC6A /* LaunchScreen.storyboard in Resources */,
+				E796B06F1E355AAC0095EC6A /* Assets.xcassets in Resources */,
+				E796B06D1E355AAC0095EC6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E796B0481E354B130095EC6A /* Resources */ = {
+		E796B0761E355AAC0095EC6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,47 +195,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E796B0321E354B130095EC6A /* Sources */ = {
+		E796B0601E355AAC0095EC6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E796B03C1E354B130095EC6A /* ViewController.swift in Sources */,
-				E796B05A1E3552980095EC6A /* AddTasksViewController.swift in Sources */,
-				E796B03A1E354B130095EC6A /* AppDelegate.swift in Sources */,
+				E796B06A1E355AAC0095EC6A /* ViewController.swift in Sources */,
+				E796B0681E355AAC0095EC6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E796B0461E354B130095EC6A /* Sources */ = {
+		E796B0741E355AAC0095EC6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E796B04F1E354B140095EC6A /* TasksTests.swift in Sources */,
+				E796B07D1E355AAC0095EC6A /* Click_CounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E796B04C1E354B130095EC6A /* PBXTargetDependency */ = {
+		E796B07A1E355AAC0095EC6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E796B0351E354B130095EC6A /* Tasks */;
-			targetProxy = E796B04B1E354B130095EC6A /* PBXContainerItemProxy */;
+			target = E796B0631E355AAC0095EC6A /* Click Counter */;
+			targetProxy = E796B0791E355AAC0095EC6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E796B03D1E354B130095EC6A /* Main.storyboard */ = {
+		E796B06B1E355AAC0095EC6A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E796B03E1E354B130095EC6A /* Base */,
+				E796B06C1E355AAC0095EC6A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E796B0421E354B130095EC6A /* LaunchScreen.storyboard */ = {
+		E796B0701E355AAC0095EC6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E796B0431E354B130095EC6A /* Base */,
+				E796B0711E355AAC0095EC6A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -246,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E796B0511E354B140095EC6A /* Debug */ = {
+		E796B07F1E355AAC0095EC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		E796B0521E354B140095EC6A /* Release */ = {
+		E796B0801E355AAC0095EC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,89 +335,87 @@
 			};
 			name = Release;
 		};
-		E796B0541E354B140095EC6A /* Debug */ = {
+		E796B0821E355AAC0095EC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Tasks/Info.plist;
+				INFOPLIST_FILE = "Click Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.br.mobillia.Tasks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.mobillia.Click-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		E796B0551E354B140095EC6A /* Release */ = {
+		E796B0831E355AAC0095EC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Tasks/Info.plist;
+				INFOPLIST_FILE = "Click Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.br.mobillia.Tasks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.mobillia.Click-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		E796B0571E354B140095EC6A /* Debug */ = {
+		E796B0851E355AAC0095EC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TasksTests/Info.plist;
+				INFOPLIST_FILE = "Click CounterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.br.mobillia.TasksTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.mobillia.Click-CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasks.app/Tasks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click Counter.app/Click Counter";
 			};
 			name = Debug;
 		};
-		E796B0581E354B140095EC6A /* Release */ = {
+		E796B0861E355AAC0095EC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TasksTests/Info.plist;
+				INFOPLIST_FILE = "Click CounterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.br.mobillia.TasksTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.mobillia.Click-CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasks.app/Tasks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Click Counter.app/Click Counter";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E796B0311E354B130095EC6A /* Build configuration list for PBXProject "Tasks" */ = {
+		E796B05F1E355AAC0095EC6A /* Build configuration list for PBXProject "Click Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E796B0511E354B140095EC6A /* Debug */,
-				E796B0521E354B140095EC6A /* Release */,
+				E796B07F1E355AAC0095EC6A /* Debug */,
+				E796B0801E355AAC0095EC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E796B0531E354B140095EC6A /* Build configuration list for PBXNativeTarget "Tasks" */ = {
+		E796B0811E355AAC0095EC6A /* Build configuration list for PBXNativeTarget "Click Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E796B0541E354B140095EC6A /* Debug */,
-				E796B0551E354B140095EC6A /* Release */,
+				E796B0821E355AAC0095EC6A /* Debug */,
+				E796B0831E355AAC0095EC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		E796B0561E354B140095EC6A /* Build configuration list for PBXNativeTarget "TasksTests" */ = {
+		E796B0841E355AAC0095EC6A /* Build configuration list for PBXNativeTarget "Click CounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E796B0571E354B140095EC6A /* Debug */,
-				E796B0581E354B140095EC6A /* Release */,
+				E796B0851E355AAC0095EC6A /* Debug */,
+				E796B0861E355AAC0095EC6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E796B02E1E354B130095EC6A /* Project object */;
+	rootObject = E796B05C1E355AAC0095EC6A /* Project object */;
 }

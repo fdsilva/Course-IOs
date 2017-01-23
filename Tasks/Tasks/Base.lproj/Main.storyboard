@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--My Tasks-->
         <scene sceneID="a0Y-ea-tTd">
             <objects>
-                <tableViewController id="QA0-M8-lS0" sceneMemberID="viewController">
+                <tableViewController id="QA0-M8-lS0" customClass="ViewController" customModule="Tasks" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="n7I-Qo-3jx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,6 +36,9 @@
                     <navigationItem key="navigationItem" title="My Tasks" id="DEB-LX-O3r">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="4bH-nM-djz">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="4Qo-8y-sQw" kind="show" id="02z-M2-RdT"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
@@ -42,12 +46,72 @@
             </objects>
             <point key="canvasLocation" x="1156" y="156.97151424287858"/>
         </scene>
+        <!--Add Tasks View Controller-->
+        <scene sceneID="cBn-lC-A5x">
+            <objects>
+                <viewController id="4Qo-8y-sQw" customClass="AddTasksViewController" customModule="Tasks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rEd-KK-WcJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="waN-ZE-I7k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c4d-Pv-poe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffZ-Gx-eVv">
+                                <rect key="frame" x="16" y="85" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xAs-Rk-kRA">
+                                <rect key="frame" x="16" y="141" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="O1h-Ub-7Ws"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puw-fl-YKq">
+                                <rect key="frame" x="131" y="318" width="113" height="30"/>
+                                <color key="backgroundColor" red="0.78957565913752159" green="0.79788698186528495" blue="0.79788698186528495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9ih-k9-Syu"/>
+                                    <constraint firstAttribute="width" constant="113" id="9uv-c9-bJg"/>
+                                </constraints>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="bt_addNewTask:" destination="4Qo-8y-sQw" eventType="touchUpInside" id="3AG-sf-wPd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ffZ-Gx-eVv" firstAttribute="top" secondItem="rEd-KK-WcJ" secondAttribute="bottom" constant="21" id="55C-wH-L26"/>
+                            <constraint firstItem="xAs-Rk-kRA" firstAttribute="leading" secondItem="c4d-Pv-poe" secondAttribute="leadingMargin" id="6Fo-eG-QPy"/>
+                            <constraint firstItem="puw-fl-YKq" firstAttribute="centerY" secondItem="c4d-Pv-poe" secondAttribute="centerY" id="INs-3s-Hoa"/>
+                            <constraint firstItem="xAs-Rk-kRA" firstAttribute="trailing" secondItem="c4d-Pv-poe" secondAttribute="trailingMargin" id="OK7-Xe-Gp3"/>
+                            <constraint firstItem="xAs-Rk-kRA" firstAttribute="top" secondItem="ffZ-Gx-eVv" secondAttribute="bottom" constant="35" id="VOB-R4-LBd"/>
+                            <constraint firstItem="ffZ-Gx-eVv" firstAttribute="trailing" secondItem="c4d-Pv-poe" secondAttribute="trailingMargin" id="c1v-BR-FZC"/>
+                            <constraint firstItem="puw-fl-YKq" firstAttribute="centerX" secondItem="c4d-Pv-poe" secondAttribute="centerX" id="hH8-st-tR6"/>
+                            <constraint firstItem="ffZ-Gx-eVv" firstAttribute="leading" secondItem="c4d-Pv-poe" secondAttribute="leadingMargin" id="iEm-VP-3JM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tf_newTaskName" destination="xAs-Rk-kRA" id="lsL-h9-gI9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C4Q-Wo-afE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2037.5999999999999" y="156.97151424287858"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="MYk-p4-krH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2MG-91-hiH" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="mlZ-Zr-pXJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mlZ-Zr-pXJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
