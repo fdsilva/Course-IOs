@@ -26,7 +26,12 @@ class AddTasksViewController: UIViewController {
         view.endEditing(true)
 }
     @IBAction func bt_addNewTask(_ sender: Any) {
-    
+        if let task = tf_newTaskName.text{
+            let taskUserDefaults = TaskUserDefaults()
+            taskUserDefaults.addTask(task: task)
+            tf_newTaskName.text = ""
+        }
+        
     }
 
     /*

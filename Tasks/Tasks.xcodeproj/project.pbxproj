@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E713FB491E36EE5D00B186C7 /* TaskUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713FB481E36EE5D00B186C7 /* TaskUserDefaults.swift */; };
 		E796B03A1E354B130095EC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B0391E354B130095EC6A /* AppDelegate.swift */; };
 		E796B03C1E354B130095EC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E796B03B1E354B130095EC6A /* ViewController.swift */; };
 		E796B03F1E354B130095EC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E796B03D1E354B130095EC6A /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E713FB481E36EE5D00B186C7 /* TaskUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskUserDefaults.swift; sourceTree = "<group>"; };
 		E796B0361E354B130095EC6A /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E796B0391E354B130095EC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E796B03B1E354B130095EC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				E796B0421E354B130095EC6A /* LaunchScreen.storyboard */,
 				E796B0451E354B130095EC6A /* Info.plist */,
 				E796B0591E3552980095EC6A /* AddTasksViewController.swift */,
+				E713FB481E36EE5D00B186C7 /* TaskUserDefaults.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				E796B03C1E354B130095EC6A /* ViewController.swift in Sources */,
 				E796B05A1E3552980095EC6A /* AddTasksViewController.swift in Sources */,
 				E796B03A1E354B130095EC6A /* AppDelegate.swift in Sources */,
+				E713FB491E36EE5D00B186C7 /* TaskUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
